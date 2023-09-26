@@ -692,7 +692,7 @@ def demo():
        # --- end if ---
         t = 'home/air-020/_SEND/'
         m_n = 'M1907'
-        t1 = t + m_n +'.jpg'
+        t1 = t + m_n +'/.jpg'
         cv2.imwrite(t1)
         gc.collect()
         setUserOutputValue0(camera, True)
